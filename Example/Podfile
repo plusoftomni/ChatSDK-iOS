@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PlusoftChatSDK_Example' do
+  pod 'PlusoftChatSDK', :path => '../'
+
+  target 'PlusoftChatSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
