@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F7195D7DE857FC61C8F6CD6E9AC072D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D910B442AA81605551619BCB594543 /* ReplaceMe.swift */; };
+		10EBD9AAEE53FA305EFA259E0FE4250B /* Pods-PlusoftChatSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9ACB9770CA2AB106DDD804733E687A0 /* Pods-PlusoftChatSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CDE5F5187D23DD13D4C0A01A56AAA71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4DAC0A7F4BDDB1BEF8000ED315978B10 /* Pods-PlusoftChatSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E84815673D8FE5A52BDCB12C9FD9959D /* Pods-PlusoftChatSDK_Example-dummy.m */; };
+		8A732CA8E506FCF538564D79B87EA3C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		902CB9F4F33B1C527D590C3C9285260F /* PlusoftChatSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC80BCD8449218B9D54EBC9EC6FCA14 /* PlusoftChatSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92493AE348C763BA931869C6FE75735A /* PlusoftChatSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD12CB4621ECB25CE70EF294B4F7D63 /* PlusoftChatSDK-dummy.m */; };
+		9621BC43AF89C8C6CA13E763A6AF4CB5 /* Pods-PlusoftChatSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E9F66DACD98108A86BC490C7F6DA08 /* Pods-PlusoftChatSDK_Tests-dummy.m */; };
+		C5932B75904C0532C44778F7992BD1A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F7B37EC1B12A15BDEA1B2AEAA10A79D9 /* Pods-PlusoftChatSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62311F67889E8457567CA3BA03A84CA1 /* Pods-PlusoftChatSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C156E465E40D8DB8C53550306D9420A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AB447EFC31EEA01C8B1B257D50CC687;
+			remoteInfo = "Pods-PlusoftChatSDK_Example";
+		};
+		F3BD2C5D0596B9EF30076E14985B7111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF0821C3C2F4AACE559C2EBA7BD18C5;
+			remoteInfo = PlusoftChatSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00950C1B93DE75CF4DE74F419DFE854E /* Pods-PlusoftChatSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlusoftChatSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		077714615806786D410BAA88B87DE51B /* Pods-PlusoftChatSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlusoftChatSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0F2BD21194C1A948BFDB9FE49C436BFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		14E9F66DACD98108A86BC490C7F6DA08 /* Pods-PlusoftChatSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlusoftChatSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		2287BD64DF03F009F5B02C71DBF03A87 /* Pods-PlusoftChatSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PlusoftChatSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		254C4D384DB9F723BEBB6D2053939523 /* Pods-PlusoftChatSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PlusoftChatSDK_Example.modulemap"; sourceTree = "<group>"; };
+		2AC80BCD8449218B9D54EBC9EC6FCA14 /* PlusoftChatSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PlusoftChatSDK-umbrella.h"; sourceTree = "<group>"; };
+		2FEB91091E301AC3F7F645C23362FEF0 /* Pods-PlusoftChatSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlusoftChatSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		32264544391B7119CB14D587263EB85D /* Pods_PlusoftChatSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PlusoftChatSDK_Example.framework; path = "Pods-PlusoftChatSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2C2DD23A22D952C00F50BC48F7AC41 /* Pods-PlusoftChatSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlusoftChatSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4A0DF2D582F05EBC98A5091E62083599 /* Pods-PlusoftChatSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlusoftChatSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5170182523C9A1C2EB91B0BCB5E50759 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5FD4CB315305273C51242A4096CFB1B3 /* Pods-PlusoftChatSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlusoftChatSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		62311F67889E8457567CA3BA03A84CA1 /* Pods-PlusoftChatSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlusoftChatSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		65A31D79E48749B44D676177DBCE74BA /* PlusoftChatSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PlusoftChatSDK.modulemap; sourceTree = "<group>"; };
+		7A0AA819F2D9025DAB549706B69E278B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D3B47700F2943A33285F92B4FC01465 /* Pods_PlusoftChatSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PlusoftChatSDK_Tests.framework; path = "Pods-PlusoftChatSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80ADE7164A3BBBFEA8B56B327171DFAA /* Pods-PlusoftChatSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlusoftChatSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		92D0B95FBF2ED0D40A5B9DF9EF42921A /* PlusoftChatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PlusoftChatSDK.framework; path = PlusoftChatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFDDAEBF46CE77D0690D5B4B5FA36D8 /* Pods-PlusoftChatSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlusoftChatSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6D910B442AA81605551619BCB594543 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PlusoftChatSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		B880238536346BAE1DFC3C9304795B6B /* Pods-PlusoftChatSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlusoftChatSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB517820A78A30CFCC13C77CE7A3BB2C /* PlusoftChatSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PlusoftChatSDK.xcconfig; sourceTree = "<group>"; };
+		BB89926BDE29559654A465AA40237B38 /* PlusoftChatSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PlusoftChatSDK-prefix.pch"; sourceTree = "<group>"; };
+		C51F7B5FCD5A7CCFB1EC3F5A292AB208 /* Pods-PlusoftChatSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlusoftChatSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		C8A9DBF9F0DEAFBBBE57651226317C0B /* Pods-PlusoftChatSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlusoftChatSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA1BC8182A8790434329ABFD7C0315D0 /* PlusoftChatSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PlusoftChatSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DDD12CB4621ECB25CE70EF294B4F7D63 /* PlusoftChatSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PlusoftChatSDK-dummy.m"; sourceTree = "<group>"; };
+		E84815673D8FE5A52BDCB12C9FD9959D /* Pods-PlusoftChatSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlusoftChatSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		EDB0281EF92017535D2CA03CD0CF7114 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F112A087D40E76BD1FA73F96563AC6 /* Pods-PlusoftChatSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlusoftChatSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F9ACB9770CA2AB106DDD804733E687A0 /* Pods-PlusoftChatSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlusoftChatSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FFD7473A7DC05E13186FFC48DDF9DD28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2760ED40B52386974D98AD5AF2E46966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A732CA8E506FCF538564D79B87EA3C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7F3A9E0425BEE10BDED686D14CF982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDE5F5187D23DD13D4C0A01A56AAA71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61B83EC3D2524727F0A310A33DEB8E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5932B75904C0532C44778F7992BD1A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E46C72FADB0FB6A9F3EB92CE861A893 /* Pods-PlusoftChatSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7A0AA819F2D9025DAB549706B69E278B /* Info.plist */,
+				2287BD64DF03F009F5B02C71DBF03A87 /* Pods-PlusoftChatSDK_Tests.modulemap */,
+				4A0DF2D582F05EBC98A5091E62083599 /* Pods-PlusoftChatSDK_Tests-acknowledgements.markdown */,
+				B880238536346BAE1DFC3C9304795B6B /* Pods-PlusoftChatSDK_Tests-acknowledgements.plist */,
+				14E9F66DACD98108A86BC490C7F6DA08 /* Pods-PlusoftChatSDK_Tests-dummy.m */,
+				3E2C2DD23A22D952C00F50BC48F7AC41 /* Pods-PlusoftChatSDK_Tests-frameworks.sh */,
+				C51F7B5FCD5A7CCFB1EC3F5A292AB208 /* Pods-PlusoftChatSDK_Tests-resources.sh */,
+				F9ACB9770CA2AB106DDD804733E687A0 /* Pods-PlusoftChatSDK_Tests-umbrella.h */,
+				9DFDDAEBF46CE77D0690D5B4B5FA36D8 /* Pods-PlusoftChatSDK_Tests.debug.xcconfig */,
+				077714615806786D410BAA88B87DE51B /* Pods-PlusoftChatSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-PlusoftChatSDK_Tests";
+			path = "Target Support Files/Pods-PlusoftChatSDK_Tests";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F64EE8C6DB3FD3D1C6256B723D4F99C /* Pods-PlusoftChatSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EDB0281EF92017535D2CA03CD0CF7114 /* Info.plist */,
+				254C4D384DB9F723BEBB6D2053939523 /* Pods-PlusoftChatSDK_Example.modulemap */,
+				C8A9DBF9F0DEAFBBBE57651226317C0B /* Pods-PlusoftChatSDK_Example-acknowledgements.markdown */,
+				2FEB91091E301AC3F7F645C23362FEF0 /* Pods-PlusoftChatSDK_Example-acknowledgements.plist */,
+				E84815673D8FE5A52BDCB12C9FD9959D /* Pods-PlusoftChatSDK_Example-dummy.m */,
+				F3F112A087D40E76BD1FA73F96563AC6 /* Pods-PlusoftChatSDK_Example-frameworks.sh */,
+				80ADE7164A3BBBFEA8B56B327171DFAA /* Pods-PlusoftChatSDK_Example-resources.sh */,
+				62311F67889E8457567CA3BA03A84CA1 /* Pods-PlusoftChatSDK_Example-umbrella.h */,
+				00950C1B93DE75CF4DE74F419DFE854E /* Pods-PlusoftChatSDK_Example.debug.xcconfig */,
+				5FD4CB315305273C51242A4096CFB1B3 /* Pods-PlusoftChatSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-PlusoftChatSDK_Example";
+			path = "Target Support Files/Pods-PlusoftChatSDK_Example";
+			sourceTree = "<group>";
+		};
+		75E5CEAB28CD59BF61124FF76DFB9CDA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FFD7473A7DC05E13186FFC48DDF9DD28 /* LICENSE */,
+				DA1BC8182A8790434329ABFD7C0315D0 /* PlusoftChatSDK.podspec */,
+				0F2BD21194C1A948BFDB9FE49C436BFD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8E9750B29E6E465E7B161164AE8CCB8D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B55CF7B822F443A5CE63C82D172DF2B5 /* Products */,
+				ED8CA73A3923682FFF78932030C3CAF9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E9750B29E6E465E7B161164AE8CCB8D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A513FD91EA7905C4B5E7BE37C94D8951 /* PlusoftChatSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A513FD91EA7905C4B5E7BE37C94D8951 /* PlusoftChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A6D910B442AA81605551619BCB594543 /* ReplaceMe.swift */,
+				75E5CEAB28CD59BF61124FF76DFB9CDA /* Pod */,
+				C9F86E10D5324A5ADF76511781A9D1F3 /* Support Files */,
+			);
+			name = PlusoftChatSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B55CF7B822F443A5CE63C82D172DF2B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92D0B95FBF2ED0D40A5B9DF9EF42921A /* PlusoftChatSDK.framework */,
+				32264544391B7119CB14D587263EB85D /* Pods_PlusoftChatSDK_Example.framework */,
+				7D3B47700F2943A33285F92B4FC01465 /* Pods_PlusoftChatSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9F86E10D5324A5ADF76511781A9D1F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5170182523C9A1C2EB91B0BCB5E50759 /* Info.plist */,
+				65A31D79E48749B44D676177DBCE74BA /* PlusoftChatSDK.modulemap */,
+				BB517820A78A30CFCC13C77CE7A3BB2C /* PlusoftChatSDK.xcconfig */,
+				DDD12CB4621ECB25CE70EF294B4F7D63 /* PlusoftChatSDK-dummy.m */,
+				BB89926BDE29559654A465AA40237B38 /* PlusoftChatSDK-prefix.pch */,
+				2AC80BCD8449218B9D54EBC9EC6FCA14 /* PlusoftChatSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PlusoftChatSDK";
+			sourceTree = "<group>";
+		};
+		ED8CA73A3923682FFF78932030C3CAF9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F64EE8C6DB3FD3D1C6256B723D4F99C /* Pods-PlusoftChatSDK_Example */,
+				0E46C72FADB0FB6A9F3EB92CE861A893 /* Pods-PlusoftChatSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		049B99C43B40E78F2690BC8A347B62A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10EBD9AAEE53FA305EFA259E0FE4250B /* Pods-PlusoftChatSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0031AF8BA5AD5AC3C8DF445032B430C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B37EC1B12A15BDEA1B2AEAA10A79D9 /* Pods-PlusoftChatSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C340834C5180FDBEF3145B92DCBEA0B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902CB9F4F33B1C527D590C3C9285260F /* PlusoftChatSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15D80019E15C80959E5737CEE91A5477 /* Pods-PlusoftChatSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23F645FC80CABA1DA12C6FA57D181C3 /* Build configuration list for PBXNativeTarget "Pods-PlusoftChatSDK_Tests" */;
+			buildPhases = (
+				738CA1F51BBDB5BCCADD3AD467966329 /* Sources */,
+				D61B83EC3D2524727F0A310A33DEB8E1 /* Frameworks */,
+				049B99C43B40E78F2690BC8A347B62A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA315FFDA04CAE9DE752462D952DF39F /* PBXTargetDependency */,
+			);
+			name = "Pods-PlusoftChatSDK_Tests";
+			productName = "Pods-PlusoftChatSDK_Tests";
+			productReference = 7D3B47700F2943A33285F92B4FC01465 /* Pods_PlusoftChatSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2AB447EFC31EEA01C8B1B257D50CC687 /* Pods-PlusoftChatSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182B43A85D6B36A6F60059A230A8F160 /* Build configuration list for PBXNativeTarget "Pods-PlusoftChatSDK_Example" */;
+			buildPhases = (
+				8254BD3F8742ED867BEA356BFE7254AC /* Sources */,
+				2760ED40B52386974D98AD5AF2E46966 /* Frameworks */,
+				C0031AF8BA5AD5AC3C8DF445032B430C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC90EC951CA5F1A322F77D683DE9D829 /* PBXTargetDependency */,
+			);
+			name = "Pods-PlusoftChatSDK_Example";
+			productName = "Pods-PlusoftChatSDK_Example";
+			productReference = 32264544391B7119CB14D587263EB85D /* Pods_PlusoftChatSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AF0821C3C2F4AACE559C2EBA7BD18C5 /* PlusoftChatSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6044C502AECBB92FDEBB2412F1D838 /* Build configuration list for PBXNativeTarget "PlusoftChatSDK" */;
+			buildPhases = (
+				734A9A56B33CC1C3881F3F6BF161FF91 /* Sources */,
+				4B7F3A9E0425BEE10BDED686D14CF982 /* Frameworks */,
+				C340834C5180FDBEF3145B92DCBEA0B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlusoftChatSDK;
+			productName = PlusoftChatSDK;
+			productReference = 92D0B95FBF2ED0D40A5B9DF9EF42921A /* PlusoftChatSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B55CF7B822F443A5CE63C82D172DF2B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AF0821C3C2F4AACE559C2EBA7BD18C5 /* PlusoftChatSDK */,
+				2AB447EFC31EEA01C8B1B257D50CC687 /* Pods-PlusoftChatSDK_Example */,
+				15D80019E15C80959E5737CEE91A5477 /* Pods-PlusoftChatSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		734A9A56B33CC1C3881F3F6BF161FF91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92493AE348C763BA931869C6FE75735A /* PlusoftChatSDK-dummy.m in Sources */,
+				0F7195D7DE857FC61C8F6CD6E9AC072D /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738CA1F51BBDB5BCCADD3AD467966329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9621BC43AF89C8C6CA13E763A6AF4CB5 /* Pods-PlusoftChatSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8254BD3F8742ED867BEA356BFE7254AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAC0A7F4BDDB1BEF8000ED315978B10 /* Pods-PlusoftChatSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC90EC951CA5F1A322F77D683DE9D829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PlusoftChatSDK;
+			target = 5AF0821C3C2F4AACE559C2EBA7BD18C5 /* PlusoftChatSDK */;
+			targetProxy = F3BD2C5D0596B9EF30076E14985B7111 /* PBXContainerItemProxy */;
+		};
+		FA315FFDA04CAE9DE752462D952DF39F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PlusoftChatSDK_Example";
+			target = 2AB447EFC31EEA01C8B1B257D50CC687 /* Pods-PlusoftChatSDK_Example */;
+			targetProxy = C156E465E40D8DB8C53550306D9420A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21EE7A422AF3AA60244037C883CB8D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFDDAEBF46CE77D0690D5B4B5FA36D8 /* Pods-PlusoftChatSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlusoftChatSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlusoftChatSDK_Tests/Pods-PlusoftChatSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6787A90F9D3425837FFAED0E444FCE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00950C1B93DE75CF4DE74F419DFE854E /* Pods-PlusoftChatSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlusoftChatSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlusoftChatSDK_Example/Pods-PlusoftChatSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BC2C51EB93E3F56007F8856478F294BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB517820A78A30CFCC13C77CE7A3BB2C /* PlusoftChatSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PlusoftChatSDK/PlusoftChatSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PlusoftChatSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PlusoftChatSDK/PlusoftChatSDK.modulemap";
+				PRODUCT_MODULE_NAME = PlusoftChatSDK;
+				PRODUCT_NAME = PlusoftChatSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC4DD326D02EC03E3187B6E47D7C795F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077714615806786D410BAA88B87DE51B /* Pods-PlusoftChatSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlusoftChatSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlusoftChatSDK_Tests/Pods-PlusoftChatSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDADCAB01CBAF516D684893B18F15B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB517820A78A30CFCC13C77CE7A3BB2C /* PlusoftChatSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PlusoftChatSDK/PlusoftChatSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PlusoftChatSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PlusoftChatSDK/PlusoftChatSDK.modulemap";
+				PRODUCT_MODULE_NAME = PlusoftChatSDK;
+				PRODUCT_NAME = PlusoftChatSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F05F4FC456E9601D966E44EA8C51ABA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD4CB315305273C51242A4096CFB1B3 /* Pods-PlusoftChatSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlusoftChatSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlusoftChatSDK_Example/Pods-PlusoftChatSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182B43A85D6B36A6F60059A230A8F160 /* Build configuration list for PBXNativeTarget "Pods-PlusoftChatSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6787A90F9D3425837FFAED0E444FCE46 /* Debug */,
+				F05F4FC456E9601D966E44EA8C51ABA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23F645FC80CABA1DA12C6FA57D181C3 /* Build configuration list for PBXNativeTarget "Pods-PlusoftChatSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EE7A422AF3AA60244037C883CB8D78 /* Debug */,
+				BC4DD326D02EC03E3187B6E47D7C795F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6044C502AECBB92FDEBB2412F1D838 /* Build configuration list for PBXNativeTarget "PlusoftChatSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDADCAB01CBAF516D684893B18F15B3C /* Debug */,
+				BC2C51EB93E3F56007F8856478F294BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

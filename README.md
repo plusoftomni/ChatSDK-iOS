@@ -22,7 +22,7 @@ pod 'PlusoftChatSDK'
 
 ## Author
 
-daniloplusoft, danilo@plantaca.com.br
+Danilo Rolim Honorato, danilohonorato@plusoft.com.br
 
 ## License
 

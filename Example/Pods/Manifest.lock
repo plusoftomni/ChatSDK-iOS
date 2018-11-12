@@ -1,0 +1,16 @@
+PODS:
+  - PlusoftChatSDK (0.1.0)
+
+DEPENDENCIES:
+  - PlusoftChatSDK (from `../`)
+
+EXTERNAL SOURCES:
+  PlusoftChatSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PlusoftChatSDK: e68687edb5a94d9498b3e5125d9f871906957c6d
+
+PODFILE CHECKSUM: 5dcfb48b524e7703351907e7c36b2280033b26fd
+
+COCOAPODS: 1.5.3
