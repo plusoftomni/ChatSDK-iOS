@@ -35,7 +35,7 @@ class ChatServer  {
     typealias RestartResponse  = (_ result : Bool) -> Void
     
     typealias OnResponse  = (_ result : Bool, _ message : String?) -> Void
-
+    
     static func Start(onStartHandler : @escaping StartResponse){
         
         // Objeto de envio
@@ -53,21 +53,21 @@ class ChatServer  {
         Alamofire.request(urlAPI + "start/" + apikey,
                           method: .post,
                           parameters: parameters, encoding: JSONEncoding.default).responseJSON{
-            response in
-            
-            // Confirma se tem sessão
-            if((response.result.value) != nil) {
-                let swiftyJsonVar = JSON(response.result.value!)
-                self.session = swiftyJsonVar["session"].stringValue
-                self.webviewer = swiftyJsonVar["WebViewer"].stringValue
-                
-                // Indica sucesso
-                onStartHandler(swiftyJsonVar["isSuccess"].boolValue);
-            }else{
-                
-                // Indica falha
-                onStartHandler(false);
-            }
+                            response in
+                            
+                            // Confirma se tem sessão
+                            if((response.result.value) != nil) {
+                                let swiftyJsonVar = JSON(response.result.value!)
+                                self.session = swiftyJsonVar["session"].stringValue
+                                self.webviewer = swiftyJsonVar["WebViewer"].stringValue
+                                
+                                // Indica sucesso
+                                onStartHandler(swiftyJsonVar["isSuccess"].boolValue);
+                            }else{
+                                
+                                // Indica falha
+                                onStartHandler(false);
+                            }
         }
     }
     
@@ -104,7 +104,7 @@ class ChatServer  {
         let parameters: Parameters = [
             "utterance": utterance,
             "id": id,
-        ]
+            ]
         
         Alamofire.request(urlAPI + "sendask/" + self.session,
                           method: .post,
@@ -117,10 +117,10 @@ class ChatServer  {
                                 lastAck = swiftyJsonVar["id"].stringValue
                                 
                                 // Resultado
-//                                onSendHandler(swiftyJsonVar["isSuccess"].boolValue)
+                                //                                onSendHandler(swiftyJsonVar["isSuccess"].boolValue)
                             }else{
                                 // Resultado
-//                                onSendHandler(false)
+                                //                                onSendHandler(false)
                             }
                             
         }
@@ -147,7 +147,7 @@ class ChatServer  {
     }
     
     static func CloseConnection(_ reason: String, onCloseHandler : @escaping CloseResponse){
-
+        
         
         Alamofire.request(urlAPI + "close/" + self.session + "/" + reason,
                           method: .get, encoding: JSONEncoding.default).responseJSON{
@@ -176,17 +176,17 @@ class ChatServer  {
         
         // Begin upload
         Alamofire.upload( multipartFormData: { (multipartFormData) in
-
-                if let imageData = UIImageJPEGRepresentation(image, 0.80) {
-                    multipartFormData.append(imageData, withName: "file", fileName: "file.jpeg", mimeType: "image/*")
-                    
-                    let name = "file.jpeg"
-                    multipartFormData.append(name.data(using: String.Encoding.utf8)!, withName: "name")
-                }
-
-            },
-            to: url,
-            encodingCompletion:
+            
+            if let imageData = UIImageJPEGRepresentation(image, 0.80) {
+                multipartFormData.append(imageData, withName: "file", fileName: "file.jpeg", mimeType: "image/*")
+                
+                let name = "file.jpeg"
+                multipartFormData.append(name.data(using: String.Encoding.utf8)!, withName: "name")
+            }
+            
+        },
+                          to: url,
+                          encodingCompletion:
             { (encodingResult) in
                 switch encodingResult {
                 case .success(let upload,_,_):
@@ -194,32 +194,32 @@ class ChatServer  {
                         if response.result.value != nil {
                             onSendHandler(true)
                         }
-                }
+                    }
                 case .failure(let error):
                     onSendHandler(false)
                 }
-            })
+        })
     }
     
     static func AVIApi(message: WKScriptMessage, onAskIdResponse : @escaping AskIdResponse) {
         
         var _json = ""
         _json = message.body as! String
-
+        
         if let dataFromString = _json.data(using: .utf8) {
             
             //let json = JSON(data: dataFromString)
             
             do{
                 let json = try JSON(data: dataFromString)
-
+                
                 if let statusType = json["type"].string {
                     
                     switch statusType {
                     case "onRedirect" :
                         if let url = URL(string: json["data"].string!) {
                             onAskIdResponse(true);
-//                            UIApplication.shared.open(url, options: [:])
+                            //                            UIApplication.shared.open(url, options: [:])
                         }
                     case "onAskId" :
                         print(json["data"].string)
@@ -255,7 +255,7 @@ class ChatServer  {
                                     self.webviewer = ""
                                     self.lastAck = swiftyJsonVar["ack"].stringValue
                                 }
-
+                                
                                 // Resultado
                                 onRestartHandler(swiftyJsonVar["isSuccess"].boolValue)
                             }else{
@@ -267,6 +267,6 @@ class ChatServer  {
         }
     }
     
-
+    
     
 }

@@ -14,7 +14,7 @@
 		902CB9F4F33B1C527D590C3C9285260F /* PlusoftChatSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC80BCD8449218B9D54EBC9EC6FCA14 /* PlusoftChatSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92493AE348C763BA931869C6FE75735A /* PlusoftChatSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD12CB4621ECB25CE70EF294B4F7D63 /* PlusoftChatSDK-dummy.m */; };
 		9621BC43AF89C8C6CA13E763A6AF4CB5 /* Pods-PlusoftChatSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E9F66DACD98108A86BC490C7F6DA08 /* Pods-PlusoftChatSDK_Tests-dummy.m */; };
-		B97F23C92199F47300202421 /* ChatServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F23C82199F47300202421 /* ChatServer.swift */; };
+		B97F23CD2199FF7C00202421 /* ChatServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F23CC2199FF7C00202421 /* ChatServer.swift */; };
 		C5932B75904C0532C44778F7992BD1A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F7B37EC1B12A15BDEA1B2AEAA10A79D9 /* Pods-PlusoftChatSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62311F67889E8457567CA3BA03A84CA1 /* Pods-PlusoftChatSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -60,8 +60,7 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DFDDAEBF46CE77D0690D5B4B5FA36D8 /* Pods-PlusoftChatSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlusoftChatSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B880238536346BAE1DFC3C9304795B6B /* Pods-PlusoftChatSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlusoftChatSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B97F23C72199F44A00202421 /* AckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AckModel.swift; sourceTree = "<group>"; };
-		B97F23C82199F47300202421 /* ChatServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatServer.swift; sourceTree = "<group>"; };
+		B97F23CC2199FF7C00202421 /* ChatServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatServer.swift; path = PlusoftChatSDK/Classes/ChatServer.swift; sourceTree = "<group>"; };
 		BB517820A78A30CFCC13C77CE7A3BB2C /* PlusoftChatSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PlusoftChatSDK.xcconfig; sourceTree = "<group>"; };
 		BB89926BDE29559654A465AA40237B38 /* PlusoftChatSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PlusoftChatSDK-prefix.pch"; sourceTree = "<group>"; };
 		C51F7B5FCD5A7CCFB1EC3F5A292AB208 /* Pods-PlusoftChatSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlusoftChatSDK_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -179,10 +178,9 @@
 		A513FD91EA7905C4B5E7BE37C94D8951 /* PlusoftChatSDK */ = {
 			isa = PBXGroup;
 			children = (
-				B97F23C82199F47300202421 /* ChatServer.swift */,
-				B97F23C62199F44A00202421 /* models */,
 				75E5CEAB28CD59BF61124FF76DFB9CDA /* Pod */,
 				C9F86E10D5324A5ADF76511781A9D1F3 /* Support Files */,
+				B97F23CC2199FF7C00202421 /* ChatServer.swift */,
 			);
 			name = PlusoftChatSDK;
 			path = ../..;
@@ -196,14 +194,6 @@
 				7D3B47700F2943A33285F92B4FC01465 /* Pods_PlusoftChatSDK_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B97F23C62199F44A00202421 /* models */ = {
-			isa = PBXGroup;
-			children = (
-				B97F23C72199F44A00202421 /* AckModel.swift */,
-			);
-			path = models;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -358,7 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B97F23C92199F47300202421 /* ChatServer.swift in Sources */,
+				B97F23CD2199FF7C00202421 /* ChatServer.swift in Sources */,
 				92493AE348C763BA931869C6FE75735A /* PlusoftChatSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

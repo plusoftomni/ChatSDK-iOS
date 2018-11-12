@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PlusoftChatSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Integrate your app with Plusoft\'s Chats or Chatbots Solutions.'
 
 # This description is used to generate tags and improve search results.
@@ -29,16 +29,17 @@ For more information: www.plusoft.com.br
   s.source           = { :git => 'https://github.com/plusoftomni/chatsdk-ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'PlusoftChatSDK/Classes/**/*'
+  s.source_files = 'PlusoftChatSDK/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'PlusoftChatSDK' => ['PlusoftChatSDK/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'WebKit'
   s.dependency 'Alamofire', '~> 4.6.0'
-  s.swift_version = "4.2"
+  s.dependency 'SwiftyJSON', '~> 4.0.0'
+  s.swift_version = "4"
 end
