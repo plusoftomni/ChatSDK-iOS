@@ -39,6 +39,6 @@ For more information: www.plusoft.com.br
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire'
   s.swift_version = "4.2"
 end
