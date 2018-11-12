@@ -29,7 +29,7 @@ For more information: www.plusoft.com.br
   s.source           = { :git => 'https://github.com/plusoftomni/chatsdk-ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'PlusoftChatSDK/Classes/*.swift'
   
