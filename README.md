@@ -1,5 +1,3 @@
-# PlusoftChatSDK
-
 [![CI Status](https://img.shields.io/travis/daniloplusoft/PlusoftChatSDK.svg?style=flat)](https://travis-ci.org/daniloplusoft/PlusoftChatSDK)
 [![Version](https://img.shields.io/cocoapods/v/PlusoftChatSDK.svg?style=flat)](https://cocoapods.org/pods/PlusoftChatSDK)
 [![License](https://img.shields.io/cocoapods/l/PlusoftChatSDK.svg?style=flat)](https://cocoapods.org/pods/PlusoftChatSDK)
