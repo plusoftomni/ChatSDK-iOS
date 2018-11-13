@@ -1,13 +1,26 @@
 [![CI Status](https://img.shields.io/travis/daniloplusoft/PlusoftChatSDK.svg?style=flat)](https://travis-ci.org/daniloplusoft/PlusoftChatSDK)
 [![Version](https://img.shields.io/cocoapods/v/PlusoftChatSDK.svg?style=flat)](https://cocoapods.org/pods/PlusoftChatSDK)
-[![License](https://img.shields.io/cocoapods/l/PlusoftChatSDK.svg?style=flat)](https://cocoapods.org/pods/PlusoftChatSDK)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://cocoapods.org/pods/PlusoftChatSDK)
 [![Platform](https://img.shields.io/cocoapods/p/PlusoftChatSDK.svg?style=flat)](https://cocoapods.org/pods/PlusoftChatSDK)
+
+
+
+## Requirements
+
+[![Platform iOS](https://img.shields.io/badge/Platform-iOS-blue.svg?style=fla)]()
+| Demo Project           |          |                    | Xcode 10.14.1             |
+
+
+#### Swift versions support
+
+| Swift             | Xcode | IQKeyboardManagerSwift |
+|-------------------|-------|------------------------|
+| 4.2, 4.0, 3.2, 3.0| 10.0  | >= 0.1.0               |
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
 
 ## Installation
 
