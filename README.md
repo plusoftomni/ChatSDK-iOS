@@ -8,14 +8,16 @@
 ## Requirements
 
 [![Platform iOS](https://img.shields.io/badge/Platform-iOS-blue.svg?style=fla)]()
-| Demo Project           |          |                    | Xcode 10.14.1             |
+
+|                        | Language | Minimum iOS Target | Minimum Xcode Version |
+| Demo Project | Swift         | iOS 9.0                      | Xcode 10.14.1                |
 
 
 #### Swift versions support
 
-| Swift             | Xcode | IQKeyboardManagerSwift |
-|-------------------|-------|------------------------|
-| 4.2, 4.0, 3.2, 3.0| 10.0  | >= 0.1.0               |
+| Swift            | Xcode | ChatSDK             |
+|---------------|---------|--------------------|
+| 4.2, 4.0, 3.2 |   10.0  | >= 0.1.0               |
 
 ## Example
 
