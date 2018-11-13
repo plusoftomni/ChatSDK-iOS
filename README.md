@@ -10,6 +10,7 @@
 [![Platform iOS](https://img.shields.io/badge/Platform-iOS-blue.svg?style=fla)]()
 
 |                        | Language | Minimum iOS Target | Minimum Xcode Version |
+|-----------------|-------------|-------------------------|-----------------------------|
 | Demo Project | Swift         | iOS 9.0                      | Xcode 10.14.1                |
 
 
